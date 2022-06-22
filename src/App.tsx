@@ -3,7 +3,7 @@ import { GlobalStyle } from "./styles/global";
 export function App() {
   return (
     <div className="App">
-      <div>App works!</div>
+      <h1>App works!</h1>
       <GlobalStyle />
     </div>
   );
