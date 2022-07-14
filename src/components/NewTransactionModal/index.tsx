@@ -60,7 +60,7 @@ export function NewTransactionModal(props: NewTransactionModalProps) {
         <input
           type="number"
           placeholder="Valor"
-          value={value}
+          value={!!value ? value : ''}
           onChange={(event) => setValue(Number(event.target.value))}
         />
 
